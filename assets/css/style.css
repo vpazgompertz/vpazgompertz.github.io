@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar{
+    background-color:rgb(181, 178, 178);
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  h1{
+    color: rgb(87, 87, 87);
+  }
+  
+  .carrera{
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  #portafolio{
+     background-color: rgb(227, 222, 222);
+  }
+  .card-img{
+    height: 380px;
+  }
+  
+  h2{
+    color: rgb(87, 87, 87);
+    
+  }
+  h3{
+    font-weight: 300 !important;
+    font-size: 20px !important;
+  }
+  
+  h5{
+    font-size: 15px !important;
+    opacity: 40%;
+  }
+  
+  p{
+    font-size: 15px;
+  }
+  
+  @media (max-width: 768px) {  
+      #imagen_header {
+        max-width: 100%;
+      }
+    }
